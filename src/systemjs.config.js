@@ -22,6 +22,9 @@
       '@angular/http': 'npm:@angular/http/bundles/http.umd.js',
       '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
+      '@progress/kendo-angular-intl': 'npm:@progress/kendo-angular-intl/dist/cdn/js/kendo-angular-intl.js',
+      '@progress/kendo-angular-grid': 'npm:@progress/kendo-angular-grid/dist/cdn/js/kendo-angular-grid.js',
+      '@progress/kendo-angular-buttons': 'npm:@progress/kendo-angular-buttons/dist/cdn/js/kendo-angular-buttons.js',
 
       // other libraries
       'rxjs':                      'npm:rxjs',
