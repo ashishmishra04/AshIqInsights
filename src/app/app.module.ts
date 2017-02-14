@@ -2,11 +2,13 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent }  from './app.component';
-import {ButtonsModule} from "@progress/kendo-angular-buttons";
+import { PageNotFoundComponent } from './page-not-found.component';
+import {AppRoutingModule} from "./app-routing.module";
+import { CoreModule } from './core/core.module';
 
 @NgModule({
-  imports:      [ BrowserModule, ButtonsModule ],
-  declarations: [ AppComponent ],
+  imports:      [ BrowserModule, AppRoutingModule, CoreModule ],
+  declarations: [ AppComponent, PageNotFoundComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

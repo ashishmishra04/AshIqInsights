@@ -35,6 +35,7 @@
     "@progress/kendo-angular-buttons": "^0.20.1",
     "@progress/kendo-angular-grid": "^0.15.1",
     "@progress/kendo-angular-intl": "^0.10.0",
+    "@progress/kendo-angular-layout": "^0.21.3",
     "@progress/kendo-data-query": "^0.3.6",
     "@progress/kendo-theme-default": "^2.11.25",
     "angular-in-memory-web-api": "~0.2.4",

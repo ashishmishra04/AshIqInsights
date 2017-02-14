@@ -1,7 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
+  moduleId: module.id,
   selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1> <button kendoButton  [primary]="true">My MAIN UI Button</button>`,
+  templateUrl: 'app.component.html',
 })
-export class AppComponent  { name = 'Angular'; }
+
+export class AppComponent implements OnInit {
+  name : string = "IQinsights";
+
+  constructor() { }
+
+  ngOnInit() { }
+
+}

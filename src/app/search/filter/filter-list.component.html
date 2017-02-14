@@ -1,0 +1,8 @@
+<h5>Filter List</h5>
+<app-filter></app-filter>
+<div>
+  <kendo-panelbar>
+    <kendo-panelbar-item  *ngFor="let filter of filterList"  [id]="filter.id"  [title]="filter.name">
+    </kendo-panelbar-item>
+  </kendo-panelbar>
+</div>
