@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
-import {HomeRoutingModule, routedComponents} from "./home-routing.module";
 import {CoreModule} from "../core/core.module";
+import {HomeRoutingModule, routedComponents} from "./home-routing.module";
 
 @NgModule({
-    imports: [HomeRoutingModule, CoreModule],
+    imports: [ CoreModule, HomeRoutingModule],
     exports: [],
     declarations: [routedComponents],
     providers: [],
 })
+
 export class HomeModule { }
